@@ -1,0 +1,104 @@
+git init
+    Inicializa un nuevo repositorio local
+
+git --version
+    Muestra la versión de git que tengo instalada
+
+git config user.name "usuario"
+git config user.email "email"
+    Ingresar datos de autenticación al crear un repositorio local nuevo.
+
+git config --global user.name "usuario"
+git config --global user.email "email"
+    Ingresar los datos de autenticación de modo global, útil si es una PC propia.
+
+git add archivo 
+    Agregar archivo al repositorio
+
+git add .
+    Agregar todos los archivos al repositorio
+
+git status
+    Ver el estado actual del repositorio
+
+git commit -m "mensaje"
+    Agregar los archivos en estado added a un commit
+
+git log
+    Muestra el historial de commits
+
+git log --oneline
+    Muestra el historial de commits en una línea
+
+git checkout hash
+    Vuelve al commit indicado con el número de hash
+
+git checkout main
+    Vuelve a la rama principal
+
+git branch -M main 
+    Cambiar el nombre de la rama a main
+
+git rm --cached archivo
+    Sacar archivo del Staging Area 
+
+git config -l 
+    Mostrar variables de entorno
+
+git remote add origin url
+    Agregar url de repositorio remoto con el que se va a conectar
+
+git remote -v
+    Chequear origin
+
+git push origin main 
+    Sube rama main
+
+git pull origin main    
+    Baja las actualizaciones de un repo ya existente en mi PC
+
+git clone url
+    Copia todos los archivos de un repo remoto, que no tenga aún en la PC.
+
+git branch / similar a git branch --list
+    Enumera todas las ramas del repositorio
+
+git branch nombreRama 
+    Crea una nueva rama con el nombre especificado
+
+git branch -d nombreRama
+    Elimina rama especificada
+
+git branch -D nombreRama
+    Fuerza la eliminación de la rama, incluso si tiene cambios sin fusionar
+
+git checkout nombreRama
+    Moverse de una rama a la otra
+
+git push origin nombreRama
+git pull origin nombreRama
+    Subir o bajar cambios de nombreRama
+
+git restore
+    Restaura los archivos hasta el estado del último commit
+
+git config --global init.defaultBranch main
+    Para que la rama principal por defecto sea main
+
+git remote remove origin
+    Borrar una vinculación a GitHub
+
+git switch nombreRama
+    Cambia a nombreRama (Como checkout)
+
+git diff rama1 rama2
+    Muestra las diferencias entre rama1 y rama2
+
+git branch -r
+    Ver ramas remotas
+
+git branch -a
+    Ver todas las ramas, locales y remotas
+
+git merge rama
+    Para hacer el merge me paro en la rama más atrás (en general, main), y desde ahí hago el merge.
