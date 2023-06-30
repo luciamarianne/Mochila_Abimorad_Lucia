@@ -1,0 +1,8 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos
+sistemas operativos y en otros no?
+    Por cuestiones de compatibilidad. Cada lenguaje de programación está diseñado para funcionar bajo determinado entorno con determinados controladores y demás.
+¿Qué tipo de máquina virtual es virtualBox?
+    Es un software de virtualización, lo que significa que genera virtualizaciones de un sistema operativo dentro de un PC ya existente.
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las
+demás? ¿por qué?
+    Cada máquina virtual es una emulación propia, no debería afectar a las demás, con lo que no, la falla de una de ellas no afecta a las demás. Si no fuera así seguramente no se usarían como sandbox.
