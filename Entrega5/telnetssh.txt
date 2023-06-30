@@ -1,0 +1,13 @@
+Telnet:
+
+Es apto para todo tipo de plataformas y da un acceso ilimitado a los recursos. Por el lado negativo, no permite acceso a todos los servidores, y el acceso ilimitado da una gran inseguridad, sin contar que el intercambio de datos no es cifrado.
+
+SSH:
+
+A diferencia de Telnet, maneja encriptación y permite conectarse a servidores remotos, pero no es muy rápido.
+
+Diferencias:
+
+Telnet es más inseguro
+Telnet no cifra los datos, SSH sí.
+Tienen distintos puertos de entrada
